@@ -25,6 +25,9 @@
   padding-right: 1rem;
 }
 
+.activeNavLink {
+  font-weight: bold;
+}
 
 .main {
   display: flex;
@@ -199,6 +202,9 @@
   background-color: #B3B3B3; /* Change the background color on hover */
 }
 
+.bold-text {
+  font-weight: 800;
+}
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
