@@ -6,12 +6,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
+  word-spacing: 0.5em;
 }
 
 .navlinkContainer {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  word-spacing : .8 em;
+  
 }
 
 
