@@ -18,7 +18,7 @@ export default function Home() {
   
   return (
     <>
-      <div>
+      <div className={styles.myBody}>
         <BrowserRouter>
           <Navbar />
           <Routes>
@@ -29,6 +29,9 @@ export default function Home() {
             <Route path="/contactus" element = {<ContactUs />}/>
           </Routes>
         </BrowserRouter>
+      </div>
+      <div>
+
       </div>
     </>
   )

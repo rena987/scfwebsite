@@ -1,3 +1,7 @@
+.myBody {
+  background-color: #D1C6BB;
+}
+
 .navbarContainer {
   display: flex;
   justify-content: space-between;
