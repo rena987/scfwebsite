@@ -12,8 +12,8 @@ export function Navbar() {
           </div>
           <div className={styles.navlinkContainer}>
             <NavLink to="/home">Home</NavLink>
-            <NavLink to="/map">Map</NavLink>
-            <NavLink to="/directory">Directory</NavLink>
+            <NavLink to="/map" className={styles.navLink}>Map</NavLink>
+            <NavLink to="/directory"className={styles.navLink}>Directory</NavLink>
             <NavLink to="/contactus">
               <button className={styles.myButton}>Contact Us</button>
             </NavLink>
