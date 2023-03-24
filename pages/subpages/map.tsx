@@ -1,4 +1,4 @@
-import myImage from '/Users/rayva/Desktop/scfwebsite-3/public/union.jpg';
+import myImage from 'public/union.jpg';
 import { StaticImageData } from 'next/image';
 
 export function Map() {

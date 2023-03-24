@@ -14,7 +14,10 @@ export function Navbar() {
             <NavLink to="/home">Home</NavLink>
             <NavLink to="/map">Map</NavLink>
             <NavLink to="/directory">Directory</NavLink>
-            <NavLink to="/contactus">Contact Us</NavLink>
+            <NavLink to="/contactus">
+              <button className={styles.myButton}>Contact Us</button>
+            </NavLink>
+            
           </div>
         </nav>
       );

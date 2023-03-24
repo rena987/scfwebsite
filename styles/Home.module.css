@@ -1,5 +1,7 @@
 .myBody {
   background-color: #D1C6BB;
+  padding: 1rem;
+  align-items: center;
 }
 
 .navbarContainer {
@@ -171,6 +173,27 @@
   );
   background-clip: content-box;
 }
+
+.myButton {
+  background-color: #F89620; /* Set the background color */
+  border: none; /* Remove the border */
+  color: rgb(13, 12, 12); /* Set the text color */
+  padding: 15px 32px; /* Add padding to the button */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove the underline */
+  display: inline-block; /* Set the button to display as an inline element */
+  font-size: 16px; /* Set the font size */
+  margin: 4px 2px; /* Add margin to the button */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  border-radius: 16px; /* Add rounded corners */
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); /* Add a shadow effect */
+  transition: background-color 0.3s ease; /* Add a smooth color transition */
+}
+
+.myButton:hover {
+  background-color: #B3B3B3; /* Change the background color on hover */
+}
+
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
