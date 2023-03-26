@@ -31,10 +31,9 @@ export default function Home() {
         </BrowserRouter>
       </div>
       <div>
-      <footer className="footer">
-  <p>© 2023 Founders -- Illinois Entrepreneurs</p>
-  
-</footer>
+      <footer className={styles.footer}>
+        <p>© 2023 Founders -- Illinois Entrepreneurs</p>
+      </footer>
 
       </div>
     </>

@@ -1,0 +1,36 @@
+.formBoundary {
+  margin: 10px 38px;
+}
+
+.blockBoundary {
+  font-family: Arial;
+  width: 100%;
+  background-color: #F9F3E9;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.myButton {
+  background-color: #F89620; /* Set the background color */
+  border: none; /* Remove the border */
+  color: #3D4141; /* Set the text color */
+  padding: 10px 32px; /* Add padding to the button */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove the underline */
+  display: inline-block; /* Set the button to display as an inline element */
+  font-size: 14px; /* Set the font size */
+  margin: 26px 2px; /* Add margin to the button */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  border-radius: 16px; /* Add rounded corners */
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); /* Add a shadow effect */
+  transition: background-color 0.3s ease; /* Add a smooth color transition */
+}
+
+.myButton:hover {
+  background-color: #B3B3B3; /* Change the background color on hover */
+}
+
