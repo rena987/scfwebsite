@@ -3,12 +3,22 @@
   padding: 12px 12px;
   font-family: Arial;
   font-size: smaller;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .myBody {
   background-color: #D1C6BB;
   padding: 1rem;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  padding-bottom: 50px;
 }
 
 .navbarContainer {
@@ -208,11 +218,11 @@
 }
 
 .myButton:hover {
-  background-color: #B3B3B3; /* Change the background color on hover */
+  background-color: hsl(0, 0%, 70%); /* Change the background color on hover */
 }
 
 .bold-text {
-  font-weight: 800;
+  font-weight: 400;
 }
 
 /* Enable hover only on non-touch devices */

@@ -1,0 +1,64 @@
+.totalScreen {
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.filtersBox {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #3D4141;
+    width: 35%;
+    height: 40%;
+    padding: 11px 16px;
+    background-color: #F9F3E9;
+    border-radius: 6px;
+}
+
+.rightColumn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7vh;
+}
+
+.typeFilterComponent {
+    color: #393937;
+    font-weight: bold;
+    font-size: 11px;
+    padding-top: 16px;
+}
+
+.alphabeticalComponent {
+    padding-top: 4px;
+
+}
+
+.blockBoundary {
+    font-family: Arial;
+    width: 100%;
+    padding: 6px 10px;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.checkboxComponent {
+    margin-top: 10px;
+}
+
+.checkboxBoundary {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.checkLabel {
+    color: #393937;
+    font-size: 11px;
+    margin-left: 6px;
+}
