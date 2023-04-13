@@ -16,10 +16,53 @@
     border-radius: 6px;
 }
 
+.searchBox {
+    font-family: Arial;
+    font-size: 14px;
+    color: #74736F;
+    height: 9%;
+    padding: 11px 16px;
+    background-color: #F9F3E9;
+    border-radius: 3px;
+    flex-direction: row;
+    display: flex;
+}
+
+.searchBox > input {
+    width: 100%;
+    height: 30%;
+    font-size: 14px;
+    border-radius: 6px;
+    color: textColor;
+    opacity: 80%;
+    border: transparent;
+    background-color: #F9F3E9;
+    box-sizing: border-box;
+    padding: 10px 15px 10px 30px;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    outline: none;
+  }
+
+.searchIcon {
+    background-image: url('/startuplogo.png');
+  }
+
 .rightColumn {
     display: flex;
     flex-direction: column;
     margin-left: 7vh;
+    width: 100%;
+}
+
+.resultsNum {
+    font-family: Arial;
+    margin-left: 15px;
+    margin-top: 6%;
+    margin-bottom: 1%;
+    font-size: 14px;
+    color: #3D4141;
+    font-weight: lighter;
 }
 
 .typeFilterComponent {
